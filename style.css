@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Courier, monospace;
+    min-height:100%; 
+    position:relative; 
+    padding-bottom: 3rem;
+}
+
+
+.container {
+    --gutter-x: 1.5rem;
+    width: 100%;
+    padding-right: var(--gutter-x, .5rem);
+    padding-left: var(--gutter-x, .5rem);
+    margin: 0 auto;
+    padding-top: calc(var(--gutter-x) * 3);
+}
+
+@media (min-width: 36rem) {
+    .container {
+        max-width: 33.75rem;
+    }
+}
+
+@media (min-width: 48rem) {
+    .container {
+        max-width: 62rem;
+    }
+}
+
+
+h1 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+
+#map {
+    height: 25rem;
+    width: 100%;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.gm-style-iw.gm-style-iw-c {
+    max-width: 20rem !important;
+    max-height: 20rem !important;
+    padding: 20px !important;
+}
+
+.gm-style-iw-d {
+    overflow: hidden !important;
+}
+
+button.gm-ui-hover-effect {
+    top: -2px !important;
+    right: -3px !important;
+}
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
